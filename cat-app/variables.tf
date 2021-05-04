@@ -49,7 +49,7 @@ variable "placeholder" {
   description = "Image-as-a-service URL. Some other fun ones to try are fillmurray.com, placecage.com, placebeard.it, loremflickr.com, baconmockup.com, placeimg.com, placebear.com, placeskull.com, stevensegallery.com, placedog.net"
 }
 
-variable "enviornment" {
+variable "environment" {
   default     = "sandbox"
-  description = "Name of the enviornment you're deploying application to."
+  description = "Name of the environment you're deploying application to."
 }
