@@ -7,7 +7,7 @@ resource "tfe_workspace" "cat-app" {
       identifier = var.vcs_identifier
       oauth_token_id = var.oauth_token_id
   }
-  working_directory = "cat-app-${element(var.enviornments, count.index)}"
+  working_directory = "cat-app/${element(var.enviornments, count.index)}"
   trigger_prefixes = ["cat-app"]
 }
 
@@ -20,6 +20,6 @@ resource "tfe_workspace" "dog-app" {
       identifier = var.vcs_identifier
       oauth_token_id = var.oauth_token_id
   }
-  working_directory = "dog-app-${element(var.enviornments, count.index)}"
+  working_directory = "dog-app/${element(var.enviornments, count.index)}"
   trigger_prefixes = ["dog-app"]
 }
