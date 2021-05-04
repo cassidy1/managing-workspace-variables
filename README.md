@@ -35,6 +35,5 @@ Each workspace is then set up to use the specific enviornment sub-folder in thei
 │   ├── main.tf
 │   ├── outputs.tf
 │   └── variables.tf
-├── modules
 └── workspace-manager
 ```
