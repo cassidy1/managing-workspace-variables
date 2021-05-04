@@ -16,21 +16,21 @@ Each workspace is then set up to use the specific enviornment sub-folder in thei
 .
 ├── README.md
 ├── cat-app
-│   ├── 0-dev
+│   ├── dev
 │   │   └── main.tf
-│   ├── 1-staging
+│   ├── staging
 │   │   └── main.tf
-│   ├── 2-prod
+│   ├── prod
 │   │   └── main.tf
 │   ├── main.tf
 │   ├── outputs.tf
 │   └── variables.tf
 ├── dog-app
-│   ├── 0-dev
+│   ├── dev
 │   │   └── main.tf
-│   ├── 1-staging
+│   ├── staging
 │   │   └── main.tf
-│   ├── 2-prod
+│   ├── prod
 │   │   └── main.tf
 │   ├── main.tf
 │   ├── outputs.tf
